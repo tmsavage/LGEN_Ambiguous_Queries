@@ -1,4 +1,5 @@
 # LGEN_Ambiguous_Queries
+**This project is being conducted through my course: "CS 6998 Section 011: Language Generation and Summarization, Fall 2023" at Columbia University.**
 
 ## Project Proposal
 ### Description
