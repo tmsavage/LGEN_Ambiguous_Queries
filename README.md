@@ -2,20 +2,25 @@
 **This project is being conducted through my course: "CS 6998 Section 011: Language Generation and Summarization, Fall 2023" at Columbia University.**
 
 ## Commands
-There are no main execution commands that are required to run this project. As long as you have the required libraries listed in the Jupyter notebook, you should be set.
+There are no main execution commands that are required to run this project. As long as you have the required libraries listed in the Jupyter notebook, you should be set. However, you will need to attain an OpenAI API key to use/test the chatbots.
 
 ## Dependencies
 You will need specific dependencies to run this project. This project requires you to install Jupyter Notebook/Lab in order to run this project.
 
 ### PyTorch: 
+  Used for changing device, computing metrics, and fine-tuning.
   `pip install torch`
-### sklearn:
+### sklearn: 
+  Used for computing metrics.
   `pip install scikit-learn`
 ### nltk:
+  Used for tokenizing outputs of GPT model for scoring.
   `pip install nltk`
 ### openai:
+  Used for API access to GPT models.
   `pip install openai`
 ### HuggingFace/Transformers:
+  Used for fine-tuning the LMs (BART and BERT).
   `pip install transformers`
 
 ## Data
